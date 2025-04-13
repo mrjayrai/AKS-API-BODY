@@ -1,0 +1,50 @@
+URL : https://aks-3vlr.onrender.com/api/inventory/add
+
+Method: POST
+
+Body: Select Form-Data in Postman
+
+we are following field:value patterm not json 
+
+warehouse: 67cda5509050cd10dd493443
+owner : 67cd5aa8d7680020ef341108
+products: [
+  {
+    "name": "Basmati Rice",
+    "barcode": "BR123456",
+    "description": "Premium long grain rice",
+    "price": 100,
+    "measuringUnit": "kg",
+    "category": "Grains",
+    "subCategory": "Rice",
+    "wholeSalePrice": 90,
+    "thresholdPrice": 80,
+    "quantity": 200,
+    "manufacturingDate": "2024-12-01"
+  },
+  {
+    "name": "Refined Sugar1",
+    "barcode": "RS654321",
+    "description": "Fine white sugar",
+    "price": 50,
+    "measuringUnit": "kg",
+    "category": "Sweeteners",
+    "subCategory": "Sugar",
+    "wholeSalePrice": 45,
+    "thresholdPrice": 40,
+    "quantity": 150,
+    "manufacturingDate": "2024-11-10"
+  }
+]
+images_0: image // choose as file option here if you want to add multiple images to a single product, you can add here as the below method
+images_0: image // Image will be added in first product
+images_1:image // Image will be added in second product and likewaise we go forward
+
+
+// End of Body
+
+
+Please note that this API is working on localmachine, but on the current server it will work but image will not be stored anywhere
+
+
+
