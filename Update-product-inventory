@@ -1,0 +1,6 @@
+URL:https://aks-3vlr.onrender.com/api/inventory/update/67fc1fc968068bfb071d7469 // Kindly note down that the last string will be dynamic to every warehouse
+
+Method: PUT
+
+Body: Formdata
+
