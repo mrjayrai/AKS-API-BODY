@@ -1,0 +1,11 @@
+URL: https://aks-3vlr.onrender.com/api/warehouse/register
+
+Method: POST
+
+Body: 
+{
+  "name": "Main Storage",
+  "location": "Sector 15, Delhi",
+  "manager": "67cd6ebde7a7e54908453b6c", // ID of the manager i.e Warehouse Manager
+  "owner":"67cd5aa8d7680020ef341108" // ID of the owner i.e. Admin
+}
