@@ -1,1 +1,13 @@
+URL : https://aks-3vlr.onrender.com/api/users/register
+
+Method: POST
+
+Body:
+{
+    "name": "Anand Salokiya",
+    "email": "pritesh@example.com",
+    "password": "SecurePass@123",
+    "role": "warehouseManager",
+    "address": "123 Main Street, Mumbai, India"
+}
 
