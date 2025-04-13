@@ -2,5 +2,20 @@ URL:https://aks-3vlr.onrender.com/api/inventory/update/67fc1fc968068bfb071d7469 
 
 Method: PUT
 
-Body: Formdata
+Body: Select Form-Data in Postman
+
+we are following field:value pattern not json 
+
+warehouse: 67cda5509050cd10dd493443
+owner : 67cd5aa8d7680020ef341108
+products: [{"productId":"67fc1fc968068bfb071d7465","quantity":250,"manufacturingDate":"2025-03-01"}, {"name":"Pineapple","barcode":"1004","description":"Fresh pineapple","price":60,"measuringUnit":"kg","category":"Fruits","subCategory":"Tropical","wholeSalePrice":55,"thresholdPrice":50,"quantity":90,"manufacturingDate":"2025-03-25"}]
+images_0: image // choose as file option here if you want to update multiple images to a single product, you can add here as the below method
+images_0: image // Image will be added in first product
+images_1:image // Image will be added in second product and likewise we go forward
+
+
+// End of Body
+
+
+Please note that this API is working on localmachine, but on the current server it will work but image will not be stored anywhere
 
