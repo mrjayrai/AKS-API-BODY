@@ -1,0 +1,21 @@
+URL : https://aks-3vlr.onrender.com/api/warehouse/getwarehouse/manager
+
+Body :
+
+{
+  "managerId":"67cd6ebde7a7e54908453b6c"
+}
+
+Response:
+
+[
+  {
+    "_id": "67cda5509050cd10dd493443",
+    "name": "Main Storage",
+    "location": "Sector 15, Delhi",
+    "owner": "67cd5aa8d7680020ef341108",
+    "manager": "67cd6ebde7a7e54908453b6c",
+    "createdAt": "2025-03-09T14:27:28.537Z",
+    "__v": 0
+  }
+]
