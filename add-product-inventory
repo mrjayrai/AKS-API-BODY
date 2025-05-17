@@ -13,27 +13,31 @@ products: [
     "name": "Basmati Rice",
     "barcode": "BR123456",
     "description": "Premium long grain rice",
-    "price": 100,
+    "mPrice": 100,
     "measuringUnit": "kg",
     "category": "Grains",
     "subCategory": "Rice",
     "wholeSalePrice": 90,
     "thresholdPrice": 80,
     "quantity": 200,
-    "manufacturingDate": "2024-12-01"
+    "manufacturingDate": "2024-12-01",
+    "sPrice":110,
+    "shelfLoc":2
   },
   {
     "name": "Refined Sugar1",
     "barcode": "RS654321",
     "description": "Fine white sugar",
-    "price": 50,
+    "mPrice": 50,
     "measuringUnit": "kg",
     "category": "Sweeteners",
     "subCategory": "Sugar",
     "wholeSalePrice": 45,
     "thresholdPrice": 40,
     "quantity": 150,
-    "manufacturingDate": "2024-11-10"
+    "manufacturingDate": "2024-11-10",
+    "sPrice":60,
+    "shelfLoc":2
   }
 ]
 images_0: image // choose as file option here if you want to add multiple images to a single product, you can add here as the below method
