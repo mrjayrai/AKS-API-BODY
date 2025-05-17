@@ -1,0 +1,9 @@
+API URL: https://aks-3vlr.onrender.com/api/warehouse/outofstock
+
+Method: POST
+
+Body:
+{
+  "warehouse":"67cda5509050cd10dd493443"
+}
+
