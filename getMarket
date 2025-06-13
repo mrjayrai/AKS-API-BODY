@@ -1,0 +1,9 @@
+API URL: https://aks-3vlr.onrender.com/api/salesmate/get-calendar
+
+
+
+Body: {
+  "salesmanId":"684c7c03ae2b9c0eb948c87e",
+  "startDate":"2025-06-23",
+  "endDate":"2025-06-29"
+}
